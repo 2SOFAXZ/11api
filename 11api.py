@@ -117,7 +117,7 @@ def loop(pho):
 
 if __name__ == "__main__":
     exec=ThreadPoolExecutor(max_workers=10000)
-    print("[*] sms flood 11 api by larinax999")
+    print("[*] sms flood 11 api by 2SOFAXZ")
     pho = input("[!] phone number >> ")
     i = int(input("[!] amount sms (max. 10k) >> "))
     exec.submit(loop,pho)
